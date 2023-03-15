@@ -4,7 +4,8 @@
   "description": "First Tailwind project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwind -i ./src/input.css -o ./css/main.css",
+    "watch": "tailwind -i ./src/input.css -o ./css/main.css --watch"
   },
   "repository": {
     "type": "git",
