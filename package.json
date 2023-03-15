@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/VaNomad/firstTailwind/issues"
   },
-  "homepage": "https://github.com/VaNomad/firstTailwind#readme"
+  "homepage": "https://github.com/VaNomad/firstTailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
 }
